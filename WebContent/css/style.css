@@ -1,0 +1,98 @@
+@CHARSET "EUC-KR";
+
+/* body .hiddin{
+	display: none;
+}
+body .h-menu > ul > li{
+	float: left;
+}
+body .clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+ */
+/* ------------------<<level1>>---------------------------- */
+°¡·Î¼±
+#header {
+	height: 70px;
+}
+
+#main-menu {
+	font-family: "¸¼Àº°íµñ";
+	font-weight: bold;
+	font-size: 15px;
+	color: #000;
+	
+	display: inline-block;
+}
+
+#main-menu>h1 {
+	diplay: none;
+}
+
+#main-menu>ul {
+	boarder: 5px solid red;
+	overflow: auto;
+}
+
+#main-menu>ul>li {
+	float: left;
+	padding-left: 24px;
+	background: url("../images/bg-main-menu-vsp.png") no-repeat  13px center;
+	
+}
+
+#visual {
+	background: #313131 url("../images/bg-visual.png") no-repeat center;
+	height: 171px;
+	border-top: 3px solid #8CBA34;
+}
+
+#body {
+	min-height: 300px;
+	border-top: 5px solid #8CBA34;
+	margin-top: 1px;
+}
+
+#footer {
+	background: #313131;
+	height: 100px;
+}
+/* ------------------<<level2>>---------------------------- */
+.content-container {
+	height: inherit;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+}
+/* ------------------<<level3>>---------------------------- */
+#aside {
+	min-height: inherit;
+	width: 205px;
+	float: left;
+	background: url("../images/bg-aside-title.png") no-repeat left top;
+}
+
+main {
+	min-height: inherit;
+	width: /* 755px; */ calc(100% - 205px);
+	float: left;
+}
+
+
+
+/* #sang {
+	position: relative;
+	opacity: 0.5;
+	left: 100px;
+	top: 50px;
+	width: 600px;
+	height: 100px;
+	border: 3px solid white;
+} */
+#body>.content-container{
+	background: url("../images/bg-body.png") repeat-y;
+}
+

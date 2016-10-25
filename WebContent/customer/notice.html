@@ -1,0 +1,410 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>공지사항 목록</title>
+
+<link href="../css/reset.css" type="text/css" rel="stylesheet" />
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+
+<script src="../js/modernizr-custom.js" type="text/javascript">
+	document.createElement("main");
+</script>
+
+</head>
+<body>
+	<div id="header">
+		<div class="content-container">
+		<h1>
+					<img src="../images/logo.png" alt="뉴렉처 온라인" />
+				</h1>
+
+			------------------------------------------------------<헤더>-----------------------------------------------------------------------
+			<header>
+				
+				이미지를 넣어줄때는 상대경로를 사용한다!. alt는 대체한다는뜻(뉴렉처 온라인 제목을 이미지로 대체함.원래있던 제목을 지우지는말것) 
+				<section>
+					<h1>헤더</h1>
+					중간제목(머리말) 이 단위들을 묶을만한제목이없어서 헤더라구함
+
+					<nav>
+						<h1 style="color: blue; font-size: 5px;">메인 메뉴</h1>
+						여기도 제목을 달아주고 css로 스타일을 입혀주었다. 단위제목
+						<ul>
+							<li><a href="" lang="ko-a">학습가이드</a></li>
+							<li><a href="" lang="ko-b">뉴렉과정</a></li>
+							<li><a href="" lang="en-a">강좌선택</a></li>
+						</ul>
+					</nav>
+					<section>
+						<h1>강좌검색 폼</h1>
+						<form>
+							<fieldset>
+								<legend>과정검색필드</legend>
+								필드에 대한 라벨 <label>NAVER</label> 인풋에 대한 라벨 <input type="text"
+									value="ko en" /> <input type="submit" value="검색 en" />
+							</fieldset>
+						</form>
+					</section>
+					<nav>
+						<h1>회원 메뉴</h1>
+						<ul>
+							<li><a href="">HOME</a></li>
+							<li><a href="">로그인</a></li>
+							<li><a href="">회원가입</a></li>
+						</ul>
+					</nav>
+					<nav>
+						<h1>고객 메뉴</h1>
+						<ul>
+							<li><a href=""><img src="../images/txt-mypage.png"
+									alt="마이페이지" /></a></li>
+							<li><a href=""><img src="../images/txt-customer.png"
+									alt="고객센터" /></a></li>
+						</ul>
+					</nav>
+				</section>
+
+
+			</header>
+		</div>
+	</div>
+	-------------------------------------------------------<visual>-------------------------------------------------------------------
+	<div id="visual">
+		<div class="content-container"></div>
+	</div>
+	-------------------------------------------------------<body>-------------------------------------------------------------------
+	<div id="body">
+		<div class="content-container clearfix">
+
+			-------------------------------------------------------aside-------------------------------------------------------------------
+
+
+			<aside id="aside">
+				<h1>고객센터</h1>
+				<nav>
+					<h1 class="aa">고객센터 메뉴</h1>
+					<ul>
+						<li><a href="">공지사항</a></li>
+						<li><a href="">1:1고객문의</a></li>
+						<li><a href="">학습안내</a></li>
+					</ul>
+				</nav>
+				<nav>
+					<h1>추천사이트</h1>
+					<ul>
+						<li><a href=""><img src="../images/answeris.png"
+								alt="앤서이즈" /></a></li>
+						<li><a href=""><img src="../images/w3c.png" alt="w3c" /></a></li>
+						<li><a href=""><img src="../images/microsoft.png"
+								alt="마이크로소프트" /></a></li>
+					</ul>
+				</nav>
+				<nav>
+					<h1>
+						<a href="">구글광고</a>
+					</h1>
+				</nav>
+			</aside>
+
+			-------------------------------------------------------main-------------------------------------------------------------------
+			<main>
+
+			<h1>공지사항</h1>
+
+				<video controls autoplay>
+				<source src="../images/lee.mp4" type="video/mp4">
+			</video>
+
+			<nav>
+				<h1>고객센터 메뉴</h1>
+				<ul>
+					<li><a href="">home</a></li>
+					<li><a href="">고객센터</a></li>
+					<li><a href="">공지사항</a></li>
+				</ul>
+			</nav>
+			<form>검색</form>
+
+			<table border="50">
+				<thead>
+					<tr>
+						<td>번호</td>
+						<td>제목</td>
+						<td>작성자</td>
+						<td>작성일</td>
+						<td>조회수</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>44</td>
+						<td>서적과 사이트 개편에 대한 안내</td>
+						<td>admin</td>
+						<td>2016-09-21</td>
+						<td>150</td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<div>1/3 pages</div>
+
+			<div>
+				이전
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+				다음
+			</div>
+
+			</main>
+		</div>
+	</div>
+
+
+	-------------------------------------------------------<footer>-------------------------------------------------------------------
+	<footer id="footer">
+		<div class="content-container">
+			<h2>회사정보</h2>
+			<dl>
+				<dt>주소</dt>
+				<dd>서울특별시 마포구 토정로35길 11, 인우빌딩 5층 266호</dd>
+				<dt>관리자메일</dt>
+				<dd>admin@newlecture.com</dd>
+				<dt>사업자 등록번호</dt>
+				<dd>132-18-46763 통신 판매업 신고제 2013-서울강동-0969 호</dd>
+				<dt>상호</dt>
+				<dd>뉴렉처</dd>
+				<dt>대표</dt>
+				<dd>박용우</dd>
+				<dt>전화번호</dt>
+				<dd>070-4206-4084 [죄송합니다. 당분간 문의내용은 고개센터 메뉴에서 1:1 문의를
+					이용해주시기바랍니다]</dd>
+			</dl>
+			<div>Copyright ⓒ newlecture.com 2012-2014 All Right Reserved.
+				Contact admin@newlecture.com for more information</div>
+		</div>
+	</footer>
+
+</body>
+</html> -->
+<!-- -----=================================== -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="../css/reset.css" type="text/css" rel="stylesheet" />
+<link href="../css/style.css" type="text/css" rel="stylesheet" />
+
+<script src="../js/modernizr-custom.js"> -->
+
+</script>
+
+</head>
+<body>
+   <!-- 제목부터 헤더까지 감싸줄 친구ㅡ -->
+   <div id="header">
+      <div class="content-container">
+         <!--------------------------------------<header>------------------------------------>
+         <header>
+         <!-- 제목 -->
+         <h1>
+            <img src="../images/logo.png" alt="뉴렉처 온라인" />
+         </h1>
+            <section>
+               <h1 class="hiddin">헤더</h1>   
+
+               <nav id ="main-menu">
+                  <h1 class="hiddin">메인메뉴</h1>
+                  <ul>
+                     <li><a href="">학습가이드</a></li>
+                     <li><a href="">뉴렉과정</a></li>
+                     <li><a href="">강좌선택</a></li>
+                  </ul>
+               </nav>
+
+               <section>
+                  <h1 class="hiddin">강좌검색 폼</h1>
+                  <form>
+                     <fieldset>
+                        <legend>과정검색필드</legend>
+                        <label>과정검색</label> <input /> <input type="submit" value="검색" />
+                     </fieldset>
+                  </form>
+               </section>
+
+               <nav>
+                  <h1 class="hiddin">회원메뉴</h1>
+                  <ul>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">로그인</a></li>
+                     <li><a href="">회원가입</a></li>
+                  </ul>
+               </nav>
+
+               <nav>
+                  <h1 class="hiddin">고객메뉴</h1>
+                  <ul>
+                     <li><a href=""><img src="../images/txt-mypage.png"
+                           alt="마이페이지" /></a></li>
+                     <li><a href=""><img src="../images/txt-customer.png"
+                           alt="고객센터" /></a></li>
+                  </ul>
+               </nav>
+            </section>
+         </header>
+      </div>
+   </div>
+
+   <!-- --------------------------------------<visual>------------------------------------ -->
+
+   <!-- 대문사진 -->
+   <div id="visual">
+      <div class="content-container">
+         
+      </div>
+   </div>
+
+
+
+   <!-- aside ~ main까지 가로영역 -->
+   <div id="body">
+      <div class="content-container clearfix">
+         <!-- --------------------------------------aside------------------------------------ -->
+         <aside id="aside">
+            <h1>고객센터</h1>
+
+            <nav>
+               <h1 class="body.hiddin">고객센터메뉴</h1>
+               <ul>
+                  <li>공지사항</li>
+                  <li>1:1고객문의</li>
+                  <li>학습안내</li>
+               </ul>
+            </nav>
+
+            <nav>
+               <h1>추천사이트</h1>
+               <ul>
+                  <li><img src="../images/answeris.png" alt="앤서이즈" /></li>
+                  <li><img src="../images/w3c.png" alt="W3C" /></li>
+                  <li><img src="../images/microsoft.png" alt="마이크로소프트" /></li>
+               </ul>
+            </nav>
+
+            <nav>
+               <h1>구글광고</h1>
+            </nav>
+         </aside>
+
+         <!-- --------------------------------------main------------------------------------ -->
+
+         <main>
+            <h2>공지사항</h2>
+
+            <!-- <div id="breadlet">
+               <h3>breadlet</h3>
+               <ul>
+                  <li>home</li>
+                  <li>고객센터</li>
+                  <li>공지사항</li>
+               </ul>
+            </div> -->
+
+            <div>
+               <h3>공지사항 검색폼</h3>
+               <form>
+                  <fieldset>
+                     <legend>공지사항 검색 필드</legend>
+                     <select>
+                        <label>검색분류</label>
+                        <option>제목</option>
+                        <option>작성자</option>
+                     </select> <label>검색어</label> <input type="text" /> <input type="submit"
+                        value="검색결과" />
+                  </fieldset>
+               </form>
+            </div>
+
+            <div>
+               <h3>공지사항 검색목록</h3>
+               <table border=1>
+                  <thead>
+                     <tr>
+                        <td>번호</td>
+                        <td>제목</td>
+                        <td>작성자</td>
+                        <td>작성일</td>
+                        <td>조회수</td>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <!-- td안에서도 다르게 처리하고 싶으면 th태그를 사용해도된다 -->
+                        <th>44</th>
+                        <td>서적과 사이트 개편에 대한 안내</td>
+                        <td>admin</td>
+                        <td>2016-09-21</td>
+                        <td>145</td>
+                     </tr>
+                  </tbody>
+               </table>
+
+               <div>
+                  <h3>현재 페이지</h3>
+                  <div>1/3 pages</div>
+               </div>
+
+               <div>
+                  <h3>페이지</h3>
+                  <div>
+                     <div>
+                        <img src="../images/btn-prev.png" alt="이전" />
+                     </div>
+
+                     <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                     </ul>
+
+                     <div>
+                        <img src="../images/btn-next.png" alt="다음" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+   </div>
+
+   <!-- --------------------------------------footer------------------------------------ -->
+   <footer id="footer">
+      <div class="content-container">
+         <h2>회사정보</h2>
+         <dl>
+            <h3>내용</h3>
+            <dt>주소:</dt>
+            <dd>서울특별시 마포구 토정로35길 11, 인우빌딩 5층 266호</dd>
+            <dt>관리자메일 :</dt>
+            <dd>admin@newlecture.com</dd>
+            <dt>사업자 등록번호 :</dt>
+            <dd>132-18-46763</dd>
+            <dt>통신 판매업 신고 :</dt>
+            <dd>제 2013-서울강동-0969 호</dd>
+            <dt>상호뉴렉처대표:</dt>
+            <dd>박용우전화번호070-4206-4084 [죄송합니다. 당분간 문의내용은 고개센터 메뉴에서 1:1 문의를
+               이용해주시기 바랍니다]</dd>
+         </dl>
+         <div>Copyright ⓒ newlecture.com 2012-2014 All Right Reserved.
+            Contact admin@newlecture.com for more information
+         </div>
+      </div>
+   </footer>
+
+</body>
+</html>
